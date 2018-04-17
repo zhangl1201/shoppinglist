@@ -16,10 +16,14 @@
   color: #aaa;
 }
 
-.applogo {
+.usermotto {
   margin-top: 50px;
 }
 
-.usermotto {
-  margin-top: 100px;
+.testlist{
+  margin-top: 50px;
+}
+
+.testitem{
+  margin-top: 20px;
 }

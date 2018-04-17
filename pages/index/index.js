@@ -50,5 +50,17 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  //test pages
+  navigateList: function(){
+    wx.navigateTo({
+      url: '../shoppinglist/shoppinglist',
+    })
+  },
+  navigateItem: function(){
+    wx.navigateTo({
+      url: '../shoppingitem/shoppingitem',
+    })
   }
 })

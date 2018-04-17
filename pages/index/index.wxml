@@ -7,10 +7,13 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class='applogo'>
-    <image class='app-logo' src='../../images/shoppinglist.png'></image>
-  </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class='testlist'>
+    <button class='test-list' bindtap='navigateList'>test shopping list page</button>
+  </view>
+  <view class='testitem'>
+    <button class='test-item' bindtap='navigateItem'>test shopping item page</button>
   </view>
 </view>
